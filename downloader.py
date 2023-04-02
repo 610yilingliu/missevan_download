@@ -26,7 +26,7 @@ def dl_mp3(id, target_folder = './'):
     sound_url = re.findall(r"soundurl\":\"(.*?)\"", json_content)[0]
     if not os.path.exists(target_folder):
         os.mkdir(target_folder)
-    mp3_stream = requests.get(sound_url)
+    mp3_stream = requests.get(sound_url, headers = headers)
     if target_folder != './':
         path = target_folder + '/' + fname
     else:
