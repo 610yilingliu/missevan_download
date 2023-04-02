@@ -2,8 +2,7 @@
 
 猫耳广播剧下载工具
 
-有问题请邮件liuyiling.windy610@bytedance.com
-github绑的邮箱很少看了
+已从字节跑路，有问题请邮件github绑定的邮箱
 
 ## 使用方法
 
